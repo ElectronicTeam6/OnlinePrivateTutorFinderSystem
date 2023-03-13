@@ -15,7 +15,9 @@ configurations {
 }
 
 repositories {
-	mavenCentral()
+    maven {
+     url project.coe_artifactory_url
+    }
 }
 
 ext {
